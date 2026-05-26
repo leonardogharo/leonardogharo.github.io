@@ -279,3 +279,19 @@ footer {
         font-size: 1.8rem;
     }
 }
+
+/* --- Ajustes para la página de lista de noticias --- */
+.news-page-container {
+    padding-bottom: 4rem;
+}
+
+.pagination-container {
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+/* Ajuste opcional: hace que el título principal de noticias tenga un poco más de margen arriba */
+.news-page-container .section-divider {
+    margin-top: 2rem;
+}
