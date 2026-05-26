@@ -286,8 +286,10 @@ footer {
 }
 
 .pagination-container {
-    text-align: center;
-    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem; /* Aumentamos el espacio para separar de la grilla */
     width: 100%;
 }
 
