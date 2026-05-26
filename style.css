@@ -286,11 +286,12 @@ footer {
 }
 
 .pagination-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6rem; /* Aumentamos el espacio para separar de la grilla */
-    width: 100%;
+    text-align: center; /* Centrado clásico e infalible para elementos como nuestro botón */
+    margin-top: 7rem;   /* Excelente separación respecto a los cuadros de noticias */
+    margin-bottom: 2rem;/* Espacio respecto al footer */
+    width: 100%;        /* Ocupa todo el ancho disponible para poder centrar */
+    display: block;     /* Se asegura de actuar como un bloque independiente */
+    clear: both;        /* Rompe cualquier interferencia de la grilla de arriba */
 }
 
 /* Ajuste opcional: hace que el título principal de noticias tenga un poco más de margen arriba */
